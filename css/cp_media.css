@@ -6,8 +6,8 @@
    Tutorial Case
 
    Cinema Penguin Styles for Media
-   Author: 
-   Date:   
+   Author: Christian
+   Date:   12/14/23
 
    Filename: cp_media.css
 
@@ -15,7 +15,12 @@
 
 /* Audio and Video Player Styles */
 
-
+audio{
+   box-shadow: rgb(51,51,51) 8px 8px 15px;
+   display: block;
+   margin: 10px auto;
+   width: 90%;
+}
 
 /* Track Styles */
 
