@@ -20,6 +20,10 @@ nav#topicLinks a{
    font-size: 1em;
    letter-spacing: 0em;
    text-shadow: rgba(0,0,0,1) 1px -1px 1px;
+   transition: color 1.5s ease-in 0.5s,
+   font-size 2s ease,
+   letter-spacing 2s ease-out,
+   text-shadow 2s cubic-bezier(0.6,0,0.8,0.5);
 }
 
 nav#topicLinks a:hover{
